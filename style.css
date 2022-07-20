@@ -1,0 +1,139 @@
+:root {
+	--primary-color: black;
+	--secondary-color: #f5f2fe;
+	--box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+	--heading-font-family: "Playfair Display", serif;
+	--default-font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: white;
+}
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 46px;
+	font-family: "Playfair Display", serif;
+	font-weight: 700px;
+	color: var(--primary-color);
+}
+
+h2 {
+	font-size: 36px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color: #ec615b;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: var(--default-font-family);
+	font-weight: 400px;
+	line-height: 36px;
+}
+
+.about-me {
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.projects {
+	text-align: center;
+	font-family: var(--default-font-family);
+	font-size: 18px;
+	line-height: 27px;
+	margin-top: -59px;
+	font-weight: 400px;
+	text-shadow: var(--box-shadow);
+}
+
+.hero {
+	background: white;
+	text-align: center;
+	background: url(images/bac.png);
+	background-size: contain;
+}
+.bg {
+	background: url(images/back.png);
+	background-size: contain;
+}
+.welcome-section {
+	font-size: 54px;
+}
+
+.btn-branding {
+	font-family: var(--default-font-family);
+	margin-top: 49px;
+	background: var(--primary-color);
+	border-radius: 4px;
+	color: var(--secondary-color);
+	font-size: 18px;
+	line-height: 27px;
+	padding: 15px 30px;
+	transition: 500ms ease-in-out;
+}
+.btn-branding:hover {
+	background: white;
+	color: black;
+	border-color: black;
+}
+
+.about-paragraphs {
+	display: flex;
+	margin: 30px 0;
+}
+
+.about-paragraphs p {
+	margin: 10px;
+	color: black;
+}
+
+.weather-image {
+	width: 550px;
+	margin-top: 90px;
+	width: 600px;
+	position: unset;
+}
+
+.email-link {
+	display: flex;
+	justify-content: center;
+	color: var(--primary-color);
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.about-app {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-family: var(--default-font-family);
+	font-weight: 400;
+	color: black;
+	font-size: 16px;
+	margin-left: 50px;
+	padding-bottom: 50px;
+	max-width: 500px;
+}
+
+.link {
+	border-radius: 4px;
+	padding: 15px 30px;
+	text-decoration: none;
+	text-transform: capitalize;
+	background: white;
+	font-family: var(--default-font-family);
+	font-weight: 500px;
+	color: #ec615b;
+	border: 1px solid #ec615b;
+	margin-left: 60px;
+	transition: 500ms ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+}

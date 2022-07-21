@@ -300,7 +300,7 @@ footer {
 
 .icon {
 	font-size: 28px;
-	margin: 10px;
+	margin: 0px 10px;
 	color: black;
 	transition: 500ms ease-in-out;
 }
@@ -350,12 +350,13 @@ p {
 	}
 
 	a.link-project {
-		margin: 45px;
+		margin: 105px;
+		text-align: center;
+	}
+	.icons {
+		margin-bottom: 2px;
 	}
 
-	.icons {
-		margin: 40px;
-	}
 	.sentance {
 		font-size: 20px;
 	}

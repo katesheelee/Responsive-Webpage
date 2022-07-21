@@ -274,12 +274,7 @@ a:hover {
 	}
 }
 
-.scroll-tracker {
-	height: 5px;
-	background-color: whitesmoke;
-	position: fixed;
-	inset: 0 0 auto;
-}
+
 
 .aboutMe-section {
 	margin-top: 120px;

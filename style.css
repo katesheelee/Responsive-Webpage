@@ -8,6 +8,7 @@
 
 body {
 	background: white;
+	
 }
 h1,
 h2,
@@ -29,6 +30,7 @@ h2 {
 	color: #ec615b;
 }
 
+
 h3 {
 	font-size: 24px;
 	font-family: var(--default-font-family);
@@ -36,12 +38,26 @@ h3 {
 	line-height: 36px;
 }
 
+body{
+    overflow-x:hidden;
+}
+
+
+
 .about-me {
 	font-size: 18px;
 	line-height: 1.5;
 	text-align: center;
 }
 
+div.col-md-6{
+	padding: 0%;
+	margin: 0%;
+}
+
+div.container-fluid{
+	padding: 0%;
+}
 .projects {
 	text-align: center;
 	font-family: var(--default-font-family);
@@ -53,10 +69,10 @@ h3 {
 }
 
 .hero {
-	background: white;
 	text-align: center;
 	background: url(images/bac.png);
 	background-size: contain;
+
 }
 .bg {
 	background: url(images/back.png);
@@ -94,10 +110,9 @@ h3 {
 }
 
 .weather-image {
-	width: 550px;
+	width: 450px;
 	margin-top: 90px;
-	width: 600px;
-	position: unset;
+
 }
 
 .email-link {
@@ -106,6 +121,10 @@ h3 {
 	color: var(--primary-color);
 	font-size: 28px;
 	text-decoration: none;
+}
+
+.conteiner{
+	padding: 0;;
 }
 
 .about-app {
@@ -156,6 +175,9 @@ a:hover {
 
 .image {
 	margin-bottom: 60px;
+	padding: 0;
+	width: 500px;
+
 }
 
 @media (max-width: 600px) {
@@ -207,11 +229,11 @@ a:hover {
 	color: black;
 	text-align: left;
 	margin-right: 50px;
-	margin-bottom: 0px;
+	margin-bottom: 60px;
 }
 
 .image {
-	width: 580px;
+	width: 480px;
 	margin-top: 40px;
 }
 
@@ -226,12 +248,8 @@ a:hover {
 	text-transform: capitalize;
 	background: white;
 	font-family: var(--default-font-family);
-	font-weight: 500px;
 	color: #ec615b;
 	border: 1px solid #ec615b;
-	margin-left: 10px;
-	margin-top: -150px;
-	margin-bottom: 150px;
 	transition: 500ms ease-in-out;
 }
 
@@ -276,6 +294,8 @@ a:hover {
 
 
 
+
+
 .aboutMe-section {
 	margin-top: 120px;
 }
@@ -307,6 +327,7 @@ footer {
 
 .icons {
 	margin-top: 50px;
+	
 }
 
 .sentance {
@@ -375,7 +396,7 @@ p{
 	}
 }
 
-eader{
+header{
 	background-color:white;
 	
 }
@@ -394,8 +415,17 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
+	margin-bottom: 130px;
 	
 }
+
+.scroll-tracker {
+	height: 5px;
+	background-color: whitesmoke;
+	position: fixed;
+	inset: 0 0 auto;
+}
+
 
 a.nav-link{
 	font-size: 19px;
@@ -472,11 +502,13 @@ a.nav-link{
 	width: 100%;
 	text-align: center;
 	transition: 0.3s;
+	margin-bottom: 300px;
 
   }
 
   p{
 	font-size: 14px;
+	
   }
   .space{
 	padding-bottom: 20px;

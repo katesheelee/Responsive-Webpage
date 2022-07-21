@@ -29,6 +29,8 @@ h2 {
 	color: #ec615b;
 }
 
+
+
 h3 {
 	font-size: 24px;
 	font-family: var(--default-font-family);
@@ -36,9 +38,7 @@ h3 {
 	line-height: 36px;
 }
 
-body {
-	overflow-x: hidden;
-}
+
 
 .about-me {
 	font-size: 18px;
@@ -46,14 +46,10 @@ body {
 	text-align: center;
 }
 
-div.col-md-6 {
-	padding: 0%;
-	margin: 0%;
+.section{
+	margin-left: 190px;
 }
 
-div.container-fluid {
-	padding: 0%;
-}
 .projects {
 	text-align: center;
 	font-family: var(--default-font-family);
@@ -75,6 +71,11 @@ div.container-fluid {
 }
 .welcome-section {
 	font-size: 54px;
+}
+.welcome-image{
+	width: 500px;
+	margin-bottom: 150px;
+
 }
 
 .btn-branding {
@@ -107,6 +108,7 @@ div.container-fluid {
 .weather-image {
 	width: 450px;
 	margin-top: 90px;
+	margin-left: 190px;
 }
 
 .email-link {
@@ -117,9 +119,7 @@ div.container-fluid {
 	text-decoration: none;
 }
 
-.conteiner {
-	padding: 0;
-}
+
 
 .about-app {
 	margin-top: 30px;
@@ -166,11 +166,7 @@ a:hover {
 	margin-left: 170px;
 }
 
-.image {
-	margin-bottom: 60px;
-	padding: 0;
-	width: 500px;
-}
+
 
 @media (max-width: 600px) {
 	.link {
@@ -224,10 +220,7 @@ a:hover {
 	margin-bottom: 60px;
 }
 
-.image {
-	width: 480px;
-	margin-top: 40px;
-}
+
 
 .link-project {
 	border-radius: 4px;
@@ -246,11 +239,11 @@ a:hover {
 		font-size: 32px;
 		text-align: center;
 	}
-	.conteiner h3 {
+	.container h3 {
 		text-align: center;
 		font-size: 16px;
 	}
-	.conteiner p {
+	.container p {
 		text-align: center;
 		margin-left: 29px;
 	}
